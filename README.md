@@ -1,4 +1,8 @@
-# DeepL API 用量查询 (DeepL API Usage Proxy)
+# DeepL-Quota-Viewer
+
+A lightweight Web tool to query DeepL API usage.
+
+[English Documentation](README_EN.md)
 
 这是一个轻量级的 Web 工具，用于查询 DeepL API 的当前用量（已用字符数/总额度）。它包含一个 PHP 后端代理，用于解决浏览器直接请求 DeepL API 时的 CORS（跨域）问题，并提供了一个安全、易用的前端界面来管理多个 API 密钥。
 
@@ -29,13 +33,13 @@
 1.  **下载代码**：
     克隆本仓库或下载 ZIP 包到您的 Web 服务器根目录。
     ```bash
-    git clone https://github.com/your-username/deepl-proxy.git
+    git clone https://github.com/milu7/DeepL-Quota-Viewer.git
     ```
 
 2.  **启动服务**：
     如果您没有 Web 服务器，可以使用 PHP 内置服务器快速启动：
     ```bash
-    cd deepl-proxy
+    cd DeepL-Quota-Viewer
     php -S localhost:8000
     ```
 
