@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #0f2b46; /* DeepL Dark Blue */
+    --accent-color: #0456ec;  /* DeepL Bright Blue */
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #333;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: #0346bf;
+    border-color: #0346bf;
+}
+
+.btn-outline-primary {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(4, 86, 236, 0.25);
+}
+
+.progress {
+    background-color: #e9ecef;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .display-6 {
+        font-size: 2rem;
+    }
+}
