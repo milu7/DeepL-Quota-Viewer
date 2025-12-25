@@ -16,6 +16,8 @@ A lightweight Web tool to query DeepL API usage.
 *   **🔄 CORS 代理**：内置 `api.php` 代理，完美解决前端直接请求 DeepL API 出现的跨域错误。
 *   **📋 批量导入**：支持通过粘贴文本批量识别并导入 API 密钥（格式灵活）。
 *   **💾 配置管理**：支持导出/导入配置，方便备份。
+  
+<img width="1842" height="1925" alt="image" src="https://github.com/user-attachments/assets/c97a94b7-6c2b-453b-a056-41a9e420004a" />
 
 ## 🛠️ 技术栈
 
