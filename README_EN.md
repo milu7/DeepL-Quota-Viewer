@@ -15,6 +15,8 @@ A lightweight Web tool to query DeepL API usage (characters used / total limit).
 *   **📋 Batch Import**: Supports batch identification and import of API keys by pasting text (flexible format).
 *   **💾 Configuration Management**: Supports export/import of configurations for easy backup.
 
+<img width="1842" height="1925" alt="image" src="https://github.com/user-attachments/assets/0ead098d-653d-4b9e-8966-697f54e91011" />
+
 ## 🛠️ Tech Stack
 
 *   **Frontend**: HTML5, Bootstrap 5, JavaScript (Vanilla), CryptoJS (for encryption)
