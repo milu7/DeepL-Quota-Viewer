@@ -1,4 +1,4 @@
-# DeepL-Quota-Viewer
+# DeepL-Quota-Viewer （DeepL API 用量查询）
 
 A lightweight Web tool to query DeepL API usage.
 
